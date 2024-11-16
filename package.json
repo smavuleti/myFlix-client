@@ -2,7 +2,7 @@
   "name": "myflix_package",
   "version": "1.0.0",
   "description": "\"\"",
-  "main": "y",
+  "main": "index.js",
   "scripts": {
     "test": "\"'"
   },
@@ -11,5 +11,13 @@
     "url": "\"https://github.com/smavuleti/myFlix-client\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.0",
+    "process": "^0.11.10"
+  }
 }
